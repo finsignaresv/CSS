@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	 background-color:grey;
+	 }
+footer  {
+		margin-top:20px;
+		}
+img  	{
+		border-radius:20px;
+		}		
+#contenedor    {
+		font-family:helvetica;
+		font-size:16px;
+	    }
+#encabezado  {
+			 display:block;
+			 margin:0 auto;	
+			 }
+.ItemMenu 	{
+			list-style-type:upper-roman;
+			color:yellow;
+			}
+.enlace {
+		color:orange;
+		}

@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+	{
+	background:black;
+	}
+
+body
+	{
+	margin: 0 auto;
+	font-size: 1em;
+	width:80%;
+	min-width:270px;
+	font-family: 'Dancing Script', cursive, georgia;
+	}
+
+header
+	{
+	width:100%;
+	}
+	
+h1
+	{
+	color:white;
+	text-shadow: 0 0 2px #02010a;
+	}
+	
+a
+	{
+	color:white;
+	}
+	
+.contenedor_header
+	{
+	background:#5b7989;
+	border-radius:10px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	
+	
+	/* --- Flex1 --- */
+	display:flex;
+	display=-webkit-flex;
+	display=-ms-flexbox;
+	flex-direction:row;
+	flex-wrap:wrap;
+	
+	justify-content:space-between;	 
+	}
+	
+.elemento_header1
+	{
+	margin:0 auto;							
+	/* --- FlexBox1 --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:1;
+	width:70%;
+	}
+
+.elemento_header2
+	{
+	margin:0 auto;
+	align-self:center;
+										
+	/* --- FlexBox2 --- */
+	
+	flex-grow:1;
+	flex-shrink:1;
+	order:2;
+	width:30%;
+	}
+	
+.contenedor_nav
+	{
+	/* --- Flex1 --- */
+	display:flex;
+	display=-webkit-flex;
+	display=-ms-flexbox;
+	flex-direction:row;
+	flex-wrap:no-wrap;
+	
+	justify-content:space-between;
+	
+	}
+
+.elemento_contenedor_nav1
+	{	
+	text-align:right;
+	text-decoration:none;
+	/* --- FlexBox --- */
+	
+	flex-grow:1;
+	flex-shrink:1;
+	order:1;
+	flex-basis:34%;
+	}
+
+.elemento_contenedor_nav2
+	{	
+	text-align:right;
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:2;
+	flex-basis:33%;
+	}
+	
+.elemento_contenedor_nav3
+	{	
+	text-align:right;
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:3;
+	flex-basis:33%;
+	}
+		
+
+

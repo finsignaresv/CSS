@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+p > textarea
+	{
+	width:200px;	
+	}
+*
+{
+margin:20px;
+font-family:verdana;
+}
+input[name^='email']
+	{
+	background-color:#eeeeee;	
+	}
+p:nth-child(3)
+	{
+	color:yellow;
+	}
+p,label
+	{
+	font-family:tahoma;
+	}
+
+

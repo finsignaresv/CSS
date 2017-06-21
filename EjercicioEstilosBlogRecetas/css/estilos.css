@@ -1,0 +1,29 @@
+body
+		{
+		margin-left:20px;
+		margin-right:20px;
+		margin-top:20px;
+		magin-bottom:20px;	
+		
+		font-family:verdana;
+		}
+.resaltado
+	{
+	background-color:yellow;
+	}
+#menu-principal
+	{
+	padding: 10px 0px;
+	}
+.titulo
+	{
+	background-color:aliceblue;
+	text-align:center;
+	padding: 10px;	
+	}
+.pie
+	{
+	border-top: solid 1px black;
+	padding-top: 10px;
+	text-align: center;	
+	}

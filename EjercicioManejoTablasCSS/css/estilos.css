@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+table
+	{
+	width:50%;
+	border-collapse: collapse;
+	}
+
+table, th, td
+	{
+	border: 1px solid black;	
+	}
+
+td, th
+	{
+	width: 100px;
+	height: 30px;
+	}
+td
+	{
+	text-align: right;
+	vertical-align: top;
+	padding: 5px;
+	}
+
+th
+	{
+	text-align: left;
+	vertical-align: bottom;
+	padding: 5px;
+	}
+
+th:hover
+	{
+	background-color:orange;
+	}
+	
+td:nth-child(even)
+	{
+	background-color:grey;
+	}
+	
+td:nth-child(odd)
+	{
+	background-color:coral;
+	}
+
+

@@ -1,0 +1,80 @@
+body
+{
+  background-color: gray;
+}
+footer
+{
+  margin-top: 20px;
+}
+img
+{
+  border-radius: 10px;
+}
+#indice{
+
+}
+#Contenedor{
+  font-family: helvetica;
+  font-size: 16px;
+}
+#Encabezado{
+  display: block;
+  margin: 0 auto;
+}
+.itemIndice{
+  list-style-type: upper-roman;
+}
+
+a[href^='#']:link
+	{
+	color: green;
+	}
+
+a[href^='#']:hover
+	{
+	color: pink;
+	}
+a[href^='#']:active
+	{
+	color: purple;
+	}
+	
+
+.enlace{
+  color: white;
+}
+
+img[src$='.svg']{
+  border-radius: 50px;
+}
+img[src$='jpg'],img[src$='png']{
+  border: 1px solid black;
+  border-radius: 5px
+}
+*{
+  margin: 1vh 1vw;
+}
+
+ul li {
+  list-style-type: circle;
+}
+
+input[name^='Nombre']:focus
+	{
+	width:160px;
+	height:100px;
+	color:orange;	
+	}
+
+input[type="radio"]:checked 
+	{
+  	margin-left: 25px;
+	}
+h2:first-child
+	{
+	text-decoration:underline;
+	}
+h2:last-child
+	{
+	text-decoration:overline;
+	}

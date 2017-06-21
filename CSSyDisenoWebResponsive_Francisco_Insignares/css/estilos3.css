@@ -1,0 +1,506 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+	{
+	background:black;
+	}
+
+#contenido
+	{
+	background:black;
+	margin: 0 auto;
+	font-size: 1em;
+	width:90%;
+	min-width:270px;
+	max-width:900px;
+	font-family: 'Dancing Script', cursive, georgia;
+	}
+	
+header
+	{
+	width:100%;
+	}
+h1
+	{
+	color:white;
+	text-shadow: 0 0 2px #02010a;
+	text-align:center;
+	}
+	
+a
+	{
+	color:white;
+	}
+
+.contenedor_header
+	{
+	background:#5b7989;
+	border-radius:10px 10px 0px 0px;
+	margin: 0 auto;
+	padding: 0px 10px;
+	
+	/* --- Flex1 --- */
+	display: flex; 			/* NEW: Opera 12.1, Firefox 22+ */
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+   		
+	flex-direction:column;
+	-webkit-flex-direction: column;
+   	-moz-flex-direction: column;
+   	-webkit-box-orient: vertical;
+   	-moz-box-orient: vertical;
+   	-o-box-orient: vertical;
+	
+	flex-wrap:wrap;
+	
+	justify-content:center;	
+	}
+	
+.elemento_header1
+	{
+	flex-grow:1;
+	flex-shrink:1;
+	order:1;
+	width:90%;
+	margin: 0 auto;
+	}
+	
+.elemento_header2
+	{
+	margin: 0 auto;
+	flex-grow:1;
+	flex-shrink:1;
+	order:2;
+	width:60%;
+	}
+		
+.contenedor_nav
+	{
+	width:60%;
+	margin: 0px auto 10px auto;
+			
+	/* --- Flex --- */
+	display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+   	display: flex;          /* NEW: Opera 12.1, Firefox 22+ */
+	
+	flex-direction:row;
+	-webkit-flex-direction: row;
+   	-moz-flex-direction: row;
+   	-webkit-box-orient: horizontal;
+   	-moz-box-orient: horizontal;
+   	-o-box-orient: horizontal;
+	
+	flex-wrap:no-wrap;
+	
+	justify-content:center;
+	}
+
+.elemento_contenedor_nav1
+	{	
+	text-align:center;
+	text-decoration:none;
+	min-width:80px;
+	
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:1;
+	flex-basis:34%;
+	}
+
+.elemento_contenedor_nav2
+	{	
+	text-align:center;
+	min-width:80px;
+	
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:2;
+	flex-basis:33%;
+	}
+	
+.elemento_contenedor_nav3
+	{	
+	text-align:center;
+	min-width:80px;
+	
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:3;
+	flex-basis:33%;
+	}
+
+.imagen_principal
+	{
+	margin:0 auto;
+	padding:3%;
+	text-align:center;	
+	background: #82c3a6;
+	}
+
+
+#imagen_principal
+	{
+	width:80%;
+	box-shadow: 0 0 2px #02010a;
+	}
+	
+.contenedor_img_secundarias
+	{
+	
+	background:#d5c75f;
+	border:1px;
+	text-align:center;
+	/* --- Flex --- */
+	display: flex; 			/* NEW: Opera 12.1, Firefox 22+ */
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+   		
+	flex-direction:column;
+	-webkit-flex-direction: column;
+   	-moz-flex-direction: column;
+   	-webkit-box-orient: vertical;
+   	-moz-box-orient: vertical;
+   	-o-box-orient: vertical;
+	
+	flex-wrap:no-wrap;
+	}
+	
+#imagen_secundaria1
+	{
+	width:88%;
+	margin:0 auto;
+	box-shadow: 0 0 2px #02010a;
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:1;
+	}
+	
+#imagen_secundaria2
+	{
+	width:88%;
+	margin:0 auto;
+	box-shadow: 0 0 2px #02010a;
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:2;
+	}
+	
+.imagen_secundaria1
+	{
+	/* --- Flex --- */
+	display: flex; 			/* NEW: Opera 12.1, Firefox 22+ */
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+	
+	flex-direction:column;
+	-webkit-flex-direction: column;
+   	-moz-flex-direction: column;
+   	-webkit-box-orient: vertical;
+   	-moz-box-orient: vertical;
+   	-o-box-orient: vertical;
+	
+	flex-wrap:no-wrap;
+	}
+	
+.imagen_secundaria1 a
+	{
+	padding-top:2%;
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:1;	
+	}
+
+.imagen_secundaria2
+	{
+	/* --- Flex --- */
+	display: flex; 			/* NEW: Opera 12.1, Firefox 22+ */
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+	
+	flex-direction:column;
+	-webkit-flex-direction: column;
+   	-moz-flex-direction: column;
+   	-webkit-box-orient: vertical;
+   	-moz-box-orient: vertical;
+   	-o-box-orient: vertical;
+	
+	flex-wrap:no-wrap;
+	}
+	
+.imagen_secundaria2 a
+	{
+	padding-top:2%;
+	/* --- FlexBox --- */
+	flex-grow:1;
+	flex-shrink:1;
+	order:2;	
+	}
+	
+#imagen_secundaria1:hover
+	{
+	transform:rotate(10deg);
+	box-shadow: 0 0 2px #82c3a6;
+	transition-property: transform, box-shadow;
+	transition-duration: 1s, 1s;
+	}	
+	
+#imagen_secundaria2:hover
+	{
+	transform: translate(20px,-5px);
+	box-shadow: 0 0 2px #82c3a6;
+	transition-property: transform, box-shadow;
+	transition-duration: 1s, 1s;
+	}	
+	
+#contenedor_pie_pagina
+	{
+	margin-top:-20px;
+	border-radius:0px 0px 10px 10px;
+	background:#C6d5c5;	
+	}
+
+#imagen_footer1
+	{
+	width:10%;
+	}	
+
+#imagen_footer2
+	{
+	width:10%;
+	}	
+	
+#imagen_footer3
+	{
+	width:10%;
+	}
+	
+#imagen_footer4
+	{
+	width:10%;
+	}	
+
+#pie_pagina
+	{
+	width:100%;
+	margin:0 auto;	
+	}
+	
+#contenedor_pie_pagina
+	{
+	margin:0 auto;
+	
+	/* --- Flex --- */
+	display: flex; 			/* NEW: Opera 12.1, Firefox 22+ */
+	display: -webkit-box;   /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
+   	display: -moz-box;      /* OLD: Firefox (buggy) */
+   	display: -o-box;
+   	display: -ms-flexbox;   /* MID: IE 10 */
+   	display: -webkit-flex;  /* NEW, Chrome 21+ */
+	
+	flex-direction:column;
+	-webkit-flex-direction: column;
+   	-moz-flex-direction: column;
+   	-webkit-box-orient: vertical;
+   	-moz-box-orient: vertical;
+   	-o-box-orient: vertical;
+	
+	flex-wrap:no-wrap;
+	}	
+	
+#contacto
+	{
+	width:45%;
+	margin:0 auto;
+	text-align:left;	
+	}
+
+#terminos
+	{
+	width:45%;
+	margin:0 auto;
+	box-align:left;	
+	}
+
+#redes
+	{
+	width:45%;
+	margin:0 auto;
+	box-align:left;	
+	}
+	
+#derechos
+	{
+	width:45%;
+	margin:0 auto;
+	box-align:left;	
+	}
+
+	
+@media (min-width:900px)
+	{
+	#contenido
+		{
+		max-width:100%;
+		}
+	
+	h1
+		{
+		text-align: left;
+		}	
+	
+	.contenedor_header
+		{
+		/* --- Flex --- */
+		flex-direction:row;
+		-webkit-flex-direction: row;
+   		-moz-flex-direction: row;
+   		-webkit-box-orient: horizontal;
+   		-moz-box-orient: horizontal;
+   		-o-box-orient: horizontal;
+		
+		flex-wrap:no-wrap;
+		justify-content:space-between;	
+		}
+		
+	.elemento_header1
+		{
+		width:68%;
+		}
+		
+	.elemento_header2
+		{
+		align-self:center;
+		width:32%;
+		}
+		
+	.contenedor_nav
+		{
+		width:32%;
+		margin: 0px auto;
+		
+		/* --- Flex --- */
+		justify-content:center;
+		}
+		
+	.elemento_contenedor_nav1
+		{	
+		text-align:right;
+		min-width:100%;
+		}
+		
+	.elemento_contenedor_nav2
+		{	
+		text-align:right;
+		min-width:100%;
+		}
+			
+	.elemento_contenedor_nav3
+		{	
+		text-align:right;
+		min-width:100%;
+		}
+		
+	.contenedor_img_secundarias
+		{
+		/* --- Flex --- */
+		flex-direction:row;
+		-webkit-flex-direction: row;
+   		-moz-flex-direction: row;
+   		-webkit-box-orient: horizontal;
+   		-moz-box-orient: horizontal;
+   		-o-box-orient: horizontal;
+		
+		flex-wrap:no-wrap;
+		
+		justify-content:space-around;
+		}
+		
+	#imagen_secundaria1
+		{
+		min-width:100%;
+		/* --- FlexBox --- */
+		
+		}
+		
+	#imagen_secundaria2
+		{
+		min-width:100%;
+		/* --- FlexBox --- */
+		}
+		
+	#contenedor_pie_pagina
+	{
+	width:100%;
+	margin:0 auto;	
+	text-align:left;
+	/* --- Flex --- */
+	
+	flex-direction:row;
+	-webkit-flex-direction: row;
+   	-moz-flex-direction: row;
+   	-webkit-box-orient: horizontal;
+   	-moz-box-orient: horizontal;
+   	-o-box-orient: horizontal;
+	
+	flex-wrap:no-wrap;
+	
+	}	
+	
+	#contacto
+		{
+		margin:0 0 0 3%;
+		width:20%;
+		flex-grow:1;
+		flex-shrink:1;
+		order:1;
+		}
+	
+	#terminos
+		{
+		width:20%;
+		flex-grow:1;
+		flex-shrink:1;
+		order:2;
+		}
+	
+	#redes
+		{
+		width:20%;
+		flex-grow:1;
+		flex-shrink:1;
+		order:3;
+		}
+		
+	#derechos
+		{
+		width:20%;
+		flex-grow:1;
+		flex-shrink:1;
+		order:4;
+		}	
+	}
+	
